@@ -16,6 +16,7 @@ if os.path.exists(outTab):
 if os.path.exists(outDat):
     os.remove(outDat)
 
-iraf.ellipse(sma0=100,maxsma=1200,interactive=True,x0=1145.76,y0=993.043,input=inputImg,out=outTab,fflag=0.9,hcenter=True,pa = 111-180, e = 0.26, hpa = True, hellip=True)
+iraf.ellipse(sma0=100,maxsma=1200,interactive=True,x0=1145.76,y0=993.043,input=inputImg,out=outTab,fflag=0.9,
+             hcenter=True,pa = 111-180, e = 0.26, hpa = True, hellip=True)
 
 iraf.tdump(table=outTab, datafile=outDat)
