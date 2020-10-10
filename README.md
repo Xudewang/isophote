@@ -1,2 +1,2 @@
 # isophote
-This is a small script for using IRAF ellipse to extract surface brightness profiles from images.
+This is a small script to extract surface brightness profiles from images using IRAF ellipse task.
